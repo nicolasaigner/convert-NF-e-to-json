@@ -1,0 +1,16 @@
+{
+  "name": "Extract NF-e",
+  "description": "Extrai dados de uma NF-e e gera um JSON",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+      "scripting",
+      "activeTab"
+  ],
+  "background": {
+      "service_worker": "background.js"
+  },
+  "action":{
+      "default_title": "Quando estiver na página da NF-e, clique aqui para extrair os dados"
+  }
+}
